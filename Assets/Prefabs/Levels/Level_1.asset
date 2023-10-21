@@ -1,0 +1,563 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3704f09b9adcee439546acee946b332, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  _level: 1
+  star: 100
+  time: 400
+  _levelDatas:
+  - cubeData:
+      CubeKey: 0
+      CubeName: F1_32x32_blue
+      CubeSprite: {fileID: 1408897380, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 3
+  - cubeData:
+      CubeKey: 1
+      CubeName: F1_32x32_green
+      CubeSprite: {fileID: 71903346, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 4
+  - cubeData:
+      CubeKey: 2
+      CubeName: F1_32x32_orange
+      CubeSprite: {fileID: 173642569, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 5
+  - cubeData:
+      CubeKey: 3
+      CubeName: F1_32x32_purple
+      CubeSprite: {fileID: 1353913754, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 6
+  - cubeData:
+      CubeKey: 4
+      CubeName: F1_32x32_turqoise
+      CubeSprite: {fileID: 14564553, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 7
+  - cubeData:
+      CubeKey: 5
+      CubeName: F1_32x32_yellow
+      CubeSprite: {fileID: 222005312, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 6
+      CubeName: F1_w_border_32x32_blue
+      CubeSprite: {fileID: 1862812937, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 7
+      CubeName: F1_w_border_32x32_green
+      CubeSprite: {fileID: -1972864569, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 8
+      CubeName: F1_w_border_32x32_purple
+      CubeSprite: {fileID: -1449722324, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 9
+      CubeName: F1_w_border_32x32_turqoise
+      CubeSprite: {fileID: 387400708, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 10
+      CubeName: F2_32x32_blue
+      CubeSprite: {fileID: -1939501570, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 11
+      CubeName: F2_32x32_green
+      CubeSprite: {fileID: -1518743498, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 12
+      CubeName: F2_32x32_orange
+      CubeSprite: {fileID: 1740165626, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 13
+      CubeName: F2_32x32_purple
+      CubeSprite: {fileID: -129459918, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 14
+      CubeName: F2_32x32_red
+      CubeSprite: {fileID: 207381790, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 15
+      CubeName: F2_32x32_turqoise
+      CubeSprite: {fileID: 113346301, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 16
+      CubeName: F2_32x32_yellow
+      CubeSprite: {fileID: -798057415, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 17
+      CubeName: F2_w_border_32x32_blue
+      CubeSprite: {fileID: 125768459, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 18
+      CubeName: F2_w_border_32x32_green
+      CubeSprite: {fileID: 857524079, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 19
+      CubeName: F2_w_border_32x32_orange
+      CubeSprite: {fileID: -568791667, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 20
+      CubeName: F2_w_border_32x32_purple
+      CubeSprite: {fileID: -2041320929, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 21
+      CubeName: F2_w_border_32x32_turqoise
+      CubeSprite: {fileID: 1183003034, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 22
+      CubeName: F3_32x32_blue
+      CubeSprite: {fileID: 13429428, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 23
+      CubeName: F3_32x32_bnw
+      CubeSprite: {fileID: -1797534350, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 24
+      CubeName: F3_32x32_green
+      CubeSprite: {fileID: 1441050069, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 25
+      CubeName: F3_32x32_orange
+      CubeSprite: {fileID: -319192443, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 26
+      CubeName: F3_32x32_purple
+      CubeSprite: {fileID: -951191331, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 27
+      CubeName: F3_32x32_red
+      CubeSprite: {fileID: -321714701, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 28
+      CubeName: F3_32x32_turqoise
+      CubeSprite: {fileID: 789877920, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 29
+      CubeName: F3_32x32_yellow
+      CubeSprite: {fileID: 2142862872, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 30
+      CubeName: F3_w_border_32x32_blue
+      CubeSprite: {fileID: 41734040, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 31
+      CubeName: F3_w_border_32x32_green
+      CubeSprite: {fileID: -126900235, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 32
+      CubeName: F3_w_border_32x32_orange
+      CubeSprite: {fileID: 1791399429, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 33
+      CubeName: F3_w_border_32x32_purple
+      CubeSprite: {fileID: -1065415004, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 34
+      CubeName: F3_w_border_32x32_turqoise
+      CubeSprite: {fileID: 1136433985, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 35
+      CubeName: F4_32x32_green
+      CubeSprite: {fileID: 1024775684, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 36
+      CubeName: F4_32x32_orange
+      CubeSprite: {fileID: 1241916099, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 37
+      CubeName: F4_32x32_purple
+      CubeSprite: {fileID: -1473147066, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 38
+      CubeName: F4_32x32_red
+      CubeSprite: {fileID: 456957296, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 39
+      CubeName: F4_32x32_turqoise
+      CubeSprite: {fileID: -1574685247, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 40
+      CubeName: F4_32x32_yellow
+      CubeSprite: {fileID: -1450078848, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 41
+      CubeName: F4_w_border_32x32_blue
+      CubeSprite: {fileID: 1368339852, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 42
+      CubeName: F4_w_border_32x32_green
+      CubeSprite: {fileID: 82093289, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 43
+      CubeName: F4_w_border_32x32_orange
+      CubeSprite: {fileID: -2138549794, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 44
+      CubeName: F4_w_border_32x32_turqoise
+      CubeSprite: {fileID: -606945421, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 45
+      CubeName: F5_32x32_blue
+      CubeSprite: {fileID: 1490526559, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 46
+      CubeName: F5_32x32_green
+      CubeSprite: {fileID: -1795757181, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 47
+      CubeName: F5_32x32_orange
+      CubeSprite: {fileID: -1608484655, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 48
+      CubeName: F5_32x32_purple
+      CubeSprite: {fileID: 1808232810, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 49
+      CubeName: F5_32x32_turqoise
+      CubeSprite: {fileID: 309288745, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 50
+      CubeName: F5_32x32_yellow
+      CubeSprite: {fileID: 416187974, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 51
+      CubeName: F5_w_border_32x32_blue
+      CubeSprite: {fileID: 1454624642, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 52
+      CubeName: F5_w_border_32x32_green
+      CubeSprite: {fileID: -56801714, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 53
+      CubeName: F5_w_border_32x32_orange
+      CubeSprite: {fileID: 756589928, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 54
+      CubeName: F5_w_border_32x32_purple
+      CubeSprite: {fileID: 1070893832, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 55
+      CubeName: F5_w_border_32x32_turqoise
+      CubeSprite: {fileID: -347567226, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 56
+      CubeName: F6_32x32_green
+      CubeSprite: {fileID: 987189426, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 57
+      CubeName: F6_32x32_orange
+      CubeSprite: {fileID: -106668115, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 58
+      CubeName: F6_32x32_turqoise
+      CubeSprite: {fileID: 986695353, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 59
+      CubeName: F6_32x32_yellow
+      CubeSprite: {fileID: 247239473, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 60
+      CubeName: F6_w_border_32x32_green
+      CubeSprite: {fileID: 743390616, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 61
+      CubeName: F6_w_border_32x32_orange
+      CubeSprite: {fileID: 1743174676, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 62
+      CubeName: F6_w_border_32x32_purple
+      CubeSprite: {fileID: 496452611, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 63
+      CubeName: F6_w_border_32x32_turqoise
+      CubeSprite: {fileID: 865825587, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 64
+      CubeName: F7_32x32
+      CubeSprite: {fileID: -983740852, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 65
+      CubeName: F7_32x32_blue
+      CubeSprite: {fileID: 92683520, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 66
+      CubeName: F7_32x32_green
+      CubeSprite: {fileID: -1716096339, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 67
+      CubeName: F7_32x32_orange
+      CubeSprite: {fileID: -1060924240, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 68
+      CubeName: F7_32x32_red
+      CubeSprite: {fileID: -1284046109, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 69
+      CubeName: F7_32x32_turqoise
+      CubeSprite: {fileID: -191688006, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 70
+      CubeName: F7_32x32_yellow
+      CubeSprite: {fileID: 552236032, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 71
+      CubeName: F7_w_border_32x32
+      CubeSprite: {fileID: -193111718, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 72
+      CubeName: F7_w_border_32x32_blue
+      CubeSprite: {fileID: -274885211, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 73
+      CubeName: F7_w_border_32x32_green
+      CubeSprite: {fileID: 1596902883, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 74
+      CubeName: F7_w_border_32x32_orange
+      CubeSprite: {fileID: 737422959, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 75
+      CubeName: F7_w_border_32x32_turqoise
+      CubeSprite: {fileID: 962380478, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 76
+      CubeName: F8_32x32
+      CubeSprite: {fileID: 371317296, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 77
+      CubeName: F8_32x32_blue
+      CubeSprite: {fileID: 1883228381, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 78
+      CubeName: F8_32x32_green
+      CubeSprite: {fileID: 275207918, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 79
+      CubeName: F8_32x32_red
+      CubeSprite: {fileID: 2000969532, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 80
+      CubeName: F8_32x32_turqoise
+      CubeSprite: {fileID: 1031601158, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 81
+      CubeName: F8_32x32_yellow
+      CubeSprite: {fileID: 1686553728, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 82
+      CubeName: F8_w_border_32x32
+      CubeSprite: {fileID: -1894228420, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 83
+      CubeName: F8_w_border_32x32_blue
+      CubeSprite: {fileID: 1567304303, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 84
+      CubeName: F8_w_border_32x32_turqoise
+      CubeSprite: {fileID: 1913078010, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 85
+      CubeName: F9_32x32
+      CubeSprite: {fileID: -1519578007, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 86
+      CubeName: F9_32x32_blue
+      CubeSprite: {fileID: 165264949, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 87
+      CubeName: F9_32x32_green
+      CubeSprite: {fileID: -688965389, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 88
+      CubeName: F9_32x32_orange
+      CubeSprite: {fileID: 1486737189, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 89
+      CubeName: F9_32x32_red
+      CubeSprite: {fileID: 176609184, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 90
+      CubeName: F9_32x32_turqoise
+      CubeSprite: {fileID: -245722732, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 91
+      CubeName: F9_32x32_yellow
+      CubeSprite: {fileID: -129723135, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 92
+      CubeName: F9_w_border_32x32
+      CubeSprite: {fileID: 891263344, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 93
+      CubeName: F9_w_border_32x32_blue
+      CubeSprite: {fileID: -1788999362, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 94
+      CubeName: F9_w_border_32x32_green
+      CubeSprite: {fileID: 567470926, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 95
+      CubeName: F9_w_border_32x32_orange
+      CubeSprite: {fileID: 1724426272, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 96
+      CubeName: F9_w_border_32x32_turqoise
+      CubeSprite: {fileID: 982369516, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 97
+      CubeName: F10_32x32
+      CubeSprite: {fileID: 965815888, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 98
+      CubeName: F10_32x32_blue
+      CubeSprite: {fileID: -1633538947, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 99
+      CubeName: F10_32x32_green
+      CubeSprite: {fileID: 1798698236, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 100
+      CubeName: F10_32x32_orange
+      CubeSprite: {fileID: -410273287, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 101
+      CubeName: F10_32x32_red
+      CubeSprite: {fileID: -1210284919, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 102
+      CubeName: F10_32x32_turqoise
+      CubeSprite: {fileID: -1351899485, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 103
+      CubeName: F10_32x32_yellow
+      CubeSprite: {fileID: -1583823475, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 104
+      CubeName: F10_w_border_32x32
+      CubeSprite: {fileID: 1175934647, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 105
+      CubeName: F10_w_border_32x32_blue
+      CubeSprite: {fileID: 915198028, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 106
+      CubeName: F10_w_border_32x32_green
+      CubeSprite: {fileID: 2067313065, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 107
+      CubeName: F10_w_border_32x32_orange
+      CubeSprite: {fileID: -105369746, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0
+  - cubeData:
+      CubeKey: 108
+      CubeName: F10_w_border_32x32_turqoise
+      CubeSprite: {fileID: -1297782553, guid: 08832508a74e2cf4e8fe0186dab2d05c, type: 3}
+    Chance: 0

@@ -1,0 +1,17 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/SpriteCube/flower-sprites.tpsheet
+- Assets/Resources/SpriteCube-sprites.tpsheet
+- Assets/Resources/Ui-sprites.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/SpriteCube/flower-sprites.png
+- Assets/Resources/SpriteCube-sprites.png
+- Assets/Resources/Ui-sprites.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+enableDebugOutput: 0
